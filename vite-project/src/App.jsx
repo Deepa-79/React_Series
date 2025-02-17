@@ -1,4 +1,11 @@
+import Greet from "./Greet";
+
 function app() {
-  return <h1>Hello React</h1>;
+  return (
+    <>
+      <greet />
+      <h1> React With chai and code</h1>
+    </>
+  );
 }
 export default app;
